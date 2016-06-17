@@ -33,7 +33,6 @@ Vagrant.configure('2') do |config|
     puts 'vagrant plugin install vagrant-hostsupdater'
     exit 1
   end
-g
   # Remove default share
   config.vm.synced_folder ".", "/vagrant", disabled: true
 
